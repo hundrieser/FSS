@@ -1,0 +1,13 @@
+Package: FSS
+Type: Package
+Title: Statistical Analysis with Circular or Toroidal Frechet Means und
+        Finite Sample Smeariness
+Version: 1.0.0
+Author: Shayan Hundrieser
+Maintainer: Shayan Hundrieser <s.hundrieser@math.uni-goettingen.de>
+Description: This is a complementary package to the work "Finite Sample Smeariness of Frechet Means with Application to Climate" where we develop a framework of more reliable statistical methodology of with Frechet means on the circle or the torus. This package contains a one- and two-sample tests for equality of Frechet means, one implemented via an asymptotic quantile based approach (clt.hotelling.one.sample.test and clt.hotelling.two.sample.test) and one based on bootstrap based resampling techniques. If the dataset is affected by finite sample smeariness (testable via FSS.test), the second test should be employed. We also provide functions which choose the appropriate test automatically as detailed in the guideline of the manuscript (guideline.one.sample.test and guideline.two.sample.test). 
+License: GPL 3
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Packaged: 2024-02-21 09:46:37 UTC; shundrieser

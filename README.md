@@ -29,4 +29,4 @@ In addition to the package we also provide code for every simulation performed i
 + `VarianceModulationCurves`: The simulations on variance modulation curves in case of different parametric distributions (Figures 1-3 in manuscript)
 + `TestingForPresenceFSS`: The simulations on the test for the presence of finite sample smeariness (Figure 5 in manuscript)
 + `TestingForEqualityOfMeans`: The simulation on the performance of the asymptotic quantile and bootstrap based tests (Table 1 and Figures 6-8 in manuscript). Further we provide the code for the variance variance modulation at difference sample sizes for the considered distributions (Tables 3 and 4). 
-+ `WindAnalysis`: The code for the wind data analysis (Figures 9,10, and in Appendix Figures 2,3). The underlying wind data for the cities of Goettingen and Basel but can be accessed from meteoBlue. 
++ `WindAnalysis`: The code for the wind data analysis (Figures 9,10, and in Appendix Figures 2,3). The underlying wind data for the cities Goettingen and Basel is not provided in the folder but can be accessed from meteoBlue. 

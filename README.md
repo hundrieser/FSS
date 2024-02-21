@@ -1,4 +1,4 @@
-# Finite Sample Smeariness of Fréchet Means on the Circle
+# Finite Sample Smeariness of Fréchet Means on the Circle and the Torus
 
 This is a complementary package to the work "Finite Sample Smeariness of Frechet Means with Application to Climate" where we develop a framework for more reliable statistical inference with Frechet means on the circle or the torus. In the paper we formalize the concept of finite sample smeariness, which negatively affects the reliability of asymptotic quantile based tests. Under the presence of finite sample smeariness - which can be tested - we recommend the usage of a bootstrap based approach, otherwise the asymptotic quantile based approach should be employed. 
 

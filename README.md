@@ -10,7 +10,7 @@ We provide an R package `FSS` which implements the following functions:
 + `FSS.test`: Test for the presence of finite sample smeariness. 
 + `guideline.one.sample.test` and `guideline.two.sample.test`: A  procedure which automatically chooses the appropriate test depending on the presence of finite sample smeariness. 
 
-This package continues to be under development, and has only been tested on Mac OS 14.2.1 with R 4.0.3. This release should not be considered stable. 
+This package continues to be under development, and has only been tested on Mac OS 14.2.1 with R 4.0.3. 
 
 # Installation
 This package may be installed as follows, using the `devtools` R package. If you do not have the `devtools`

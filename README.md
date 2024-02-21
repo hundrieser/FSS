@@ -19,9 +19,13 @@ package installed, you may install it using the command `install.package("devtoo
 library(devtools)
 devtools::install_github("hundrieser/FSS")
 ```
+Alternatively, the file FSS_1.0.0.tar.gz’ can be downloaded and the package can be installed with the command.
+```r
+install.packages("/PathToFile/FSS_1.0.0.tar.gz", repos = NULL, type = "source")
+```
 
 # Code for Paper
-In addition to the package we also provide code for every simulation performed in the manuscript (see folder: `CodeForPaper’. This includes:
+In addition to the package we also provide code for every simulation performed in the manuscript (see Folder: `CodeForPaper`). This includes:
 + `VarianceModulationCurves`: The simulations on variance modulation curves in case of different parametric distributions (Figures 1-3 in manuscript)
 + `TestingForPresenceFSS`: The simulations on the test for the presence of finite sample smeariness (Figure 5 in manuscript)
 + `TestingForEqualityOfMeans`: The simulation on the performance of the asymptotic quantile and bootstrap based tests (Table 1 and Figures 6-8 in manuscript). Further we provide the code for the variance variance modulation at difference sample sizes for the considered distributions (Tables 3 and 4). 
